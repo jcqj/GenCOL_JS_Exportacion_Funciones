@@ -26,8 +26,19 @@ class Producto {
     }
 }
 
-// class ProductoDigital extends Producto {
+class ProductoDigital extends Producto {
+    constructor(nombre, precio, licencia) {
+        super(nombre, precio);
+        this.licencia = licencia;
+    }
+    calcularTotal() {
+        console.log(`Precio normal, al ser digital no tieneIVA: ${this.precio}\n`);
+        return this.precioIVA;
+    }
+    tarjeta() {
+        console.log(`Nombre: ${this.nombre} \nLicencia: ${this.licencia} \nPrecio sin IVA: ${this.precio}\n`);
+        return "Tarjeta"
+    }
+}
 
-// }
-
-export { Producto };
+export { Producto, ProductoDigital };

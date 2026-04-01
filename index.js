@@ -1,5 +1,5 @@
 import { Usuario, UsuarioVIP } from "./usuario.js";
-import { Producto } from "./producto.js";
+import { Producto, ProductoDigital } from "./producto.js";
 // import { formatearPrecio, validarEmail, calcularDescuento } from "./funciones.js";
 
 
@@ -42,3 +42,14 @@ import { Producto } from "./producto.js";
 // //? Aplicar 1 descuento y verificar que precio origianl no cambia.
 // producto1.aplicarDescuento(10);
 // producto1.resumen()
+
+// //! CHECKPOINT 4
+// //? Crear un producto digital, llamar calcularTotal(), validar que no aplique IVA.
+// let productoDigital1 = new ProductoDigital("Xbox", 5000, "Licencia de uso personal");
+// productoDigital1.calcularTotal();
+
+// //? Comparar tarjeta entre producto normal y digital.
+// let producto3 = new Producto("TV", 10000, "Electrodomestico");
+// producto3.tarjeta()
+
+// productoDigital1.tarjeta()
