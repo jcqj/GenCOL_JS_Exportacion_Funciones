@@ -33,7 +33,7 @@ class ProductoDigital extends Producto {
     }
     calcularTotal() {
         console.log(`Precio normal, al ser digital no tieneIVA: ${this.precio}\n`);
-        return this.precioIVA;
+        return this.precio;
     }
     tarjeta() {
         console.log(`Nombre: ${this.nombre} \nLicencia: ${this.licencia} \nPrecio sin IVA: ${this.precio}\n`);

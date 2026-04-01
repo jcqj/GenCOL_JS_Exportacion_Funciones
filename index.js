@@ -1,7 +1,5 @@
 import { Usuario, UsuarioVIP } from "./usuario.js";
 import { Producto, ProductoDigital } from "./producto.js";
-// import { formatearPrecio, validarEmail, calcularDescuento } from "./funciones.js";
-
 
 
 // //! CHECKPOINT 1
@@ -53,3 +51,33 @@ import { Producto, ProductoDigital } from "./producto.js";
 // producto3.tarjeta()
 
 // productoDigital1.tarjeta()
+
+// //! CHECKPOINT 5
+// //? Crear al menos 3 usuarios: un cliente, administrador y usuario VIP.
+// let cli1 = new Usuario("Atrox", "Atrox@gmail.com")
+// let admin1 = new Usuario("Thomas", "Thomas@gmail.com", "Administrador")
+// let vip1 = new UsuarioVIP("Netto", "Netto@gmail.com")
+
+// //? Crear al menos 4 productos, 2 fisicos de categorias distintas y 2 digitales con diferentes licencias.
+// let prod1 = new Producto("TV", 10000, "Electrodomestico");
+// let prod2 = new Producto("Cuaderno", 1000, "Papeleria")
+// let prod3 = new ProductoDigital("Xbox", 5000, "Licencia de uso personal");
+// let prod4 = new ProductoDigital("Photoshop", 2000, "Licencia de uso comercial");
+
+// //? Desactivar uno de los usarios y mostrar su resumen para verificar el cambio de estado.
+// admin1.desactivar();
+// admin1.resumen()
+
+// //? Aplicar descuento de 20% a un producto fisico e imprimir precio.
+// prod1.aplicarDescuento(20);
+
+// //? Imprimir la tarjeta de todos los productos
+// prod1.tarjeta();
+// prod2.tarjeta();
+// prod3.tarjeta();
+// prod4.tarjeta();
+
+// //? Imprimir resumen de todos los usuarios
+// cli1.resumen();
+// admin1.resumen();
+// vip1.resumen();
