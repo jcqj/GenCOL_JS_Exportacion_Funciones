@@ -1,5 +1,6 @@
 import { Usuario, UsuarioVIP } from "./usuario.js";
 import { Producto, ProductoDigital } from "./producto.js";
+import { calcularTotalCarrito } from "./utilidades.js";
 
 
 // //! CHECKPOINT 1
@@ -81,3 +82,11 @@ import { Producto, ProductoDigital } from "./producto.js";
 // cli1.resumen();
 // admin1.resumen();
 // vip1.resumen();
+
+// //! CHECKPOINT 6 ADICIONAL
+// //? Crear un array de productos
+// let productos = [prod1, prod2, prod3, prod4];
+
+// //? Utilizar funcion calcularTotalCarrito()
+// let totalCarrito = calcularTotalCarrito(productos);
+// console.log(`El total a pagar por los productos del carrito es: ${totalCarrito}`)
